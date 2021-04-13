@@ -1,7 +1,6 @@
 use std::env;
 use std::fs::File;
-use std::io::prelude::BufRead;
-use std::io::{BufReader, Error};
+use std::io::{BufRead, BufReader, Error};
 
 fn print_usage_and_exit() {
     println!("wc <file1> <file2>...");
